@@ -1,0 +1,16 @@
+server:
+  port: 18088
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lhr0916/configsServer
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/configs
